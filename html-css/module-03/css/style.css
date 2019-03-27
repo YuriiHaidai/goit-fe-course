@@ -1,0 +1,51 @@
+/* must have для всех страниц */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#body {
+    background-color: aquamarine;
+}
+
+.header {
+    background-color: rgb(178, 141, 212);
+}
+
+.menu {
+    margin: 0 auto;
+    width: 700px;
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: #000 2px 2px 4px;
+    font-size: 40px;
+}
+
+main {
+    /* border: #000 solid 1px; */
+    width: 1250px;
+    margin: 100px auto 0;
+}
+
+article {
+    width: 600px;
+    display: inline-block;
+}
+
+.step {
+    margin-left: 44px;
+}
+
+img {
+    width: 100%;
+}
