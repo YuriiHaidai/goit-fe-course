@@ -86,8 +86,9 @@ article p {
 }
 
 #wrapper {
-
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 button {
@@ -96,4 +97,6 @@ button {
     margin: 0 auto;
     height: 60px;
     width: 165px;
+    background-color: white;
+    border: 1px solid black;
 }
