@@ -30,7 +30,7 @@ nav {
 }
 
 .menu li {
-    display: inline;
+    display: inline-block;
     list-style: none;
 }
 
@@ -49,11 +49,6 @@ nav {
 
 a:hover {
     color: rgba(3, 169, 244, 1);
-}
-
-main {
-    width: 950px;
-    margin: 0 auto;
 }
 
 section {
