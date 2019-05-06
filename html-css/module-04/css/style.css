@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,900');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header section */
+.header{
+    padding: 35px 0 105px;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.logo-link{
+    float: left;
+    text-decoration: none;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #656262;
+    font-weight: 300;
+}
+
+.logo::first-letter{
+    color: rgba(26, 188, 156, 255);
+    font-weight: 900;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.menu-item{
+    float: left;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 35px;
+}
+
+.menu-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #0f0101;
+    font-weight: 700;
+}
+
+.menu-link:hover{
+    color: rgba(26, 188, 156, 255);
+}
+
+/* Featured products section */
+.features{
+    padding-bottom: 105px;
+}
+
+.features h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: rgba(81, 81, 81, 255);
+    font-weight: 900;
+    padding-bottom: 92px;
+}
+
+.features h2::after{
+    content: '';
+    display: block;
+    margin: 32px auto 0 auto;
+    height: 7px;
+    width: 164px;
+    background-color: #1abc9c;
+}
+
+.products-list-item{
+    float: left;
+    width: 255px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0;
+}
+
+.products-list-item:hover .products-name{
+    background-color: #1abc9c;
+}
+
+.products-list-item:hover .products-price{
+    background-color: #7fd9c7;
+}
+
+/* Все кроме каждого 4-го имеют отступ справа */
+.products-list-item:not(:nth-child(4n)){
+    margin-right: 30px;
+}
+
+/* Первые 4-ре карточки имеют отступ снизу  */
+.products-list-item:nth-child(-n+4){
+    margin-bottom: 30px;
+}
+
+.products-name{
+    float: left;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: #323232;
+    width: 201px;
+    height: 40px;
+    padding: 9px 10px 5px 10px;
+}
+
+.products-price{
+    float: right;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    font-weight: 900;
+    background-color: #8c8c8c;
+    width: 54px;
+    height: 40px;
+    padding: 9px 10px 5px 10px;
+}
+
+/* Latest news section */
+
+.news{
+    padding-bottom: 50px;
+}
+
+.news h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: rgba(82, 82, 82, 255);
+    font-weight: 900;
+    padding-bottom: 75px;
+}
+
+.news h2::after{
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    margin: 32px auto 0;
+}
+
+.news-list{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.news-list-item{
+    list-style: none;
+    float: left;
+    width: 350px;
+}
+
+/* Все кроме каждого 3-го имеют отступ справа */
+.news-list-item:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+
+.news-list-item img{
+    width: 350px;
+    height: 262px;
+    padding-bottom: 14px;
+}
+
+.news-title{
+    font-size: 18px;
+    color: rgba(85, 82, 82, 255);
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.news-title::after{
+    content: '';
+    display: block;
+    margin: 11px auto 0 0;
+    background-color: #4ec6ab;
+    width: 136px;
+    height: 3px;
+}
+
+.news-text{
+    font-size: 14px;
+    color: rgba(85, 82, 82, 255);
+    padding-bottom: 16px;
+}
+
+.button{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+    font-weight: 300;
+    width: 159px;
+    height: 51px;
+    background-color: #4ec6ab;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
