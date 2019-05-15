@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,900');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 2px solid red;
+}
+
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 38px 0 32px 0;
+}
+
+.logo-link{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    color: #555252;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.logo::first-letter{
+    color: rgba(26, 188, 156, 255);
+    font-weight: 900;
+}
+
+.menu-list{
+    list-style: none;
+    font-size: 0;
+    display: inline-block;
+}
+
+.menu-item{
+    display: inline-block;
+    font-size: 14px;
+    color: #0f0101;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider{
+    /* width: 1600px; */
+    height: 600px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 2px 2px black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider-text{
+    position: absolute;
+    color: #ffffff;
+    left: 450px;
+}
+
+.slider-title{
+    font-size: 60px;
+    font-weight: 900;
+    top: 218px;
+}
+
+.slider-subtitle{
+    font-size: 24px;
+    font-weight: 300;
+    top: 350px;
+}
+
+.slider-ctrl{
+    width: 104px;
+    height: 104px;
+    background-color: rgb(78, 198, 171);
+    opacity: 0.651;
+    border: none;
+    position: absolute;
+    /* display: inline-block; */
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.slider-ctrl:hover{
+    background-color: rgb(26, 188, 156);
+}
+
+.slider-ctrl-prev{
+    left: 246px;
+    background-image: url(../img/prev.png);
+}
+
+.slider-ctrl-next{
+    right: 246px;
+    background-image: url(../img/next.png);
+}
+
+.slider-image{
+    background-color: rgba(255, 255, 255, 0.849);
+    /* opacity: 0.2; */
+    /* z-index: 72; */
+}
+
+.collection-title{
+    font-size: 48px;
+    color: rgba(81, 81, 81, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.collection-item-text{
+    font-size: 18px;
+    /* color: rgba(255, 255, 255, 255); */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.collection-item-price{
+    font-size: 18px;
+    /* color: rgba(255, 255, 255, 255); */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
