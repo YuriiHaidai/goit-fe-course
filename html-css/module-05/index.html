@@ -5,60 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Homework Module-5</title>
+    <title>Homework Module-05</title>
 </head>
 <body>
     <header class="header container">
-        <a href="#" class="logo-link">
-            <h1 class="logo">mart</h1>
-        </a>
-        <ul class="menu-list">
-            <li class="menu-item"><a class="menu-item-link" href="">home</a></li>
-            <li class="menu-item"><a class="menu-item-link" href="">about us</a></li>
-            <li class="menu-item"><a class="menu-item-link" href="">page</a></li>
-            <li class="menu-item"><a class="menu-item-link" href="">shop</a></li>
-            <li class="menu-item"><a class="menu-item-link" href="">blog</a></li>
-            <li class="menu-item"><a class="menu-item-link" href="">contact us</a></li>
-        </ul>
+        <nav>
+            <a href="#" class="logo-link">
+                <h1 class="logo">mart</h1>
+            </a>
+            <ul class="menu-list clearfix">
+                <li class="menu-item"><a class="menu-item-link" href="">home</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="">about us</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="">page</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="">shop</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="">blog</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="">contact us</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="slider container">
-        <button class="slider-ctrl slider-ctrl-prev"></button>
-        <button class="slider-ctrl slider-ctrl-next"></button>
-        <h2 class="slider-title slider-text">AFFORDABLE PARIS TOURS</h2>
-        <p class="slider-subtitle slider-text">CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
-        <img src="./img/slide4.png" alt="smiling-girls" class="slider-image">
-    </section>
+    <main class="container">
+        <section class="slider">
+            <div class="slider-overlay"></div>
+            <img src="./img/slide4.png" alt="smiling-girls" class="slider-image">
+            <button class="slider-ctrl slider-ctrl-prev"></button>
+            <button class="slider-ctrl slider-ctrl-next"></button>
+            <h2 class="slider-title">AFFORDABLE PARIS TOURS <span class="slider-subtitle">CITY TOURS / TOUR TICKETS / TOUR GUIDES</span></h2>
+        </section>
 
-    <section class="collections container">
-        <p class="collection-title">NEW COLLECTION</p>
-        <ul class="collection-list">
-            <li class="collection-item">
-                <img src="./img/category-2.png" alt="Blue Tshirt" class="collection-item-image">
-                <p class="collection-item-text">Blue Tshirt</p>
-                <p class="collection-item-price">$26</p>
-            </li>
-            <li class="collection-item">
-                <img src="./img/category-1.png" alt="WOMAN shirt" class="collection-item-image">
-                <p class="collection-item-text">WOMAN shirt</p>
-                <p class="collection-item-price">$31</p>
-            </li>
-            <li class="collection-item">
-                <img src="./img/category-4.png" alt="YELLOW Tshirt" class="collection-item-image">
-                <p class="collection-item-text">YELLOW Tshirt</p>
-                <p class="collection-item-price">$21</p>
-            </li>
-            <li class="collection-item">
-                <img src="./img/category-3.png" alt="Cool lingerie" class="collection-item-image">
-                <p class="collection-item-text">Cool lingerie</p>
-                <p class="collection-item-price">$56</p>
-            </li>
-        </ul>
-    </section>
+        <section class="collection">
+            <h2 class="collection-title">NEW COLLECTION</h2>
+            <ul class="collection-list clearfix">
+                <li class="collection-item">
+                    <a href="#" class="collection-link">
+                        <div class="overlay">
+                            <span class="overlay-icon heart"></span>
+                            <span class="overlay-icon arrows"></span>
+                            <span class="overlay-icon clock"></span>
+                            <span class="overlay-icon basket">add to cart</span>
+                        </div>
+                        <img src="./img/category-2.png" alt="Tshirt" class="collection-item-image">
+                        <p class="collection-item-text">Blue Tshirt</p>
+                        <p class="collection-item-price">$26</p>
+                    </a>
+                </li>
 
-    <footer class="container">
-        <p>All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a></p>
+                <li class="collection-item">
+                    <a href="#" class="collection-link">
+                        <div class="overlay">
+                            <span class="overlay-icon heart"></span>
+                            <span class="overlay-icon arrows"></span>
+                            <span class="overlay-icon clock"></span>
+                            <span class="overlay-icon basket">add to cart</span>
+                        </div>
+                        <img src="./img/category-1.png" alt="shirt" class="collection-item-image">
+                        <p class="collection-item-text">WOMAN shirt</p>
+                        <p class="collection-item-price">$31</p>
+                    </a>
+                </li>
+
+                <li class="collection-item">
+                    <a href="#" class="collection-link">
+                        <div class="overlay">
+                            <span class="overlay-icon heart"></span>
+                            <span class="overlay-icon arrows"></span>
+                            <span class="overlay-icon clock"></span>
+                            <span class="overlay-icon basket">add to cart</span>
+                        </div>
+                        <img src="./img/category-4.png" alt="Tshirt" class="collection-item-image">
+                        <p class="collection-item-text">YELLOW Tshirt</p>
+                        <p class="collection-item-price">$21</p>
+                    </a>
+                </li>
+
+                <li class="collection-item">
+                    <a href="#" class="collection-link">
+                        <div class="overlay">
+                            <span class="overlay-icon heart"></span>
+                            <span class="overlay-icon arrows"></span>
+                            <span class="overlay-icon clock"></span>
+                            <span class="overlay-icon basket">add to cart</span>
+                        </div>
+                        <img src="./img/category-3.png" alt="lingerie" class="collection-item-image">
+                        <p class="collection-item-text">Cool lingerie</p>
+                        <p class="collection-item-price">$56</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <p>All Rights Reserved © Dokan | Designed <a href="#" class="footer-link">ThemenGraph</a></p>
     </footer>
-    
 </body>
 </html>
