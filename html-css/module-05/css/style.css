@@ -63,6 +63,7 @@
 
 .menu-item-link{
     display: block;
+    color: #000;
     text-decoration: none;
 }
 
@@ -139,6 +140,7 @@ main{
 .collection{
     width: 1110px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .collection-title{
@@ -167,7 +169,6 @@ main{
     width: 255px;
     float: left;
     font-size: 0;
-    margin-bottom: 100px;
 }
 
 .collection-link{
@@ -181,6 +182,8 @@ main{
     border: 1px solid rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-color: Transparent;
+    cursor: pointer;
 }
 
 .heart{
@@ -220,7 +223,7 @@ main{
     color: rgba(255, 255, 255, 255);
     text-align: right;
     text-transform: uppercase;
-    padding: 14px 16px 0 0;
+    padding-right: 16px;
     background-position: 12px 8px;
 }
 
