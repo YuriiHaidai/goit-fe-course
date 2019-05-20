@@ -77,9 +77,10 @@ main{
 
 .slider{
     position: relative;
-    margin: 0 auto 100px;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 0;
+    padding-bottom: 100px;
 }
 
 .slider-title{
