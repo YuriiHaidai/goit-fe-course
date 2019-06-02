@@ -181,6 +181,7 @@
 
 .form-message{
     height: 210px;
+    resize: none;
 }
 
 .needs:valid{
