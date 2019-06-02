@@ -1,3 +1,31 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Bold.woff) format('woff');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face{
+    font-family: "RobotoSlab";
+    src: url(../fonts/RobotoSlab-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "RobotoSlab";
+    src: url(../fonts/RobotoSlab-Bold.woff) format('woff');
+    font-weight: 700;
+    font-style: normal
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +56,7 @@
     font-size: 14px;
     color: rgb(34, 34, 34);
     text-transform: uppercase;
+    font-family: "Montserrat";
 }
 
 .menu-list-item-link:hover{
@@ -39,6 +68,8 @@
     color: rgb(34, 34, 34);
     text-align: center;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
 }
 
 .services-text,
@@ -47,6 +78,8 @@
     color: rgb(119, 119, 119);
     text-align: center;
     margin-bottom: 80px;
+    font-family: "RobotoSlab";
+    font-style: italic;
 }
 
 .services-list{
@@ -55,21 +88,48 @@
     margin-bottom: 120px;
     list-style: none;
     text-align: center;
+    position: relative;
 }
 
 .services-list-item{
     width: 290px;
 }
 
+.services-list-item::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-list-item:nth-child(1)::before{
+    background-image: url(../img/Icon-Basket.png);
+}
+
+.services-list-item:nth-child(2)::before{
+    background-image: url(../img/Icon-Laptop.png);
+}
+
+.services-list-item:nth-child(3)::before{
+    background-image: url(../img/Icon-Locked.png);
+}
+
 .services-list-item-title{
     font-size: 18px;
     color: rgb(34, 34, 34);
     margin-bottom: 18px;
+    padding-top: 30px;
+    font-family: "RobotoSlab";
 }
 
 .services-list-item-text{
     font-size: 14px;
     color: rgb(119, 119, 119);
+    font-family: "RobotoSlab";
 }
 
 .contacts{
@@ -86,5 +146,51 @@
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    /* font-family: "RobotoSlab"; */
+    font-family: "Montserrat";
+}
+
+.form input{
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(187, 187, 187, 255);
+    width: 454px;
+    border: none;
+    padding: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.form-name,
+.form-email,
+.form-subject{
+    height: 50px;
+    margin: 0 30px 30px 0;
+}
+
+.form-message{
+    height: 210px;
+}
+
+.needs:valid{
+    outline: 1px solid #008000;
+}
+
+.needs:invalid{
+    outline: 1px solid #ff0000;
+}
+
+.button{
+    width: 240px;
+    height: 66px;
+    color: #fff;
+    background-color: #fed136;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 700;
 }
 

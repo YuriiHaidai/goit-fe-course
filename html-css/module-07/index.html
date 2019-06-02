@@ -48,10 +48,17 @@
         </section>
 
         <section class="contacts">
-            <h2 class="contacts-title">Contact us</h2>
-            <p class="contacts-text">Proin iaculis purus consequat sem cure.</p>
-            <form action=""></form>
-            <input type = "submit" value = "Send Message">
+            <div class="container">
+                <h2 class="contacts-title">Contact us</h2>
+                <p class="contacts-text">Proin iaculis purus consequat sem cure.</p>
+                <form class="form" action="#">
+                    <input class="form-name needs" type="text" placeholder="your Name *" name="name" required>
+                    <input class="form-email needs" type="email" placeholder="your e-mail *" name="email" required>
+                    <input class="form-subject" type="text" placeholder="subject" name="subject">
+                    <input class="form-message needs" type="text" placeholder="Your message *" name="message" required>
+                    <button class="button" type="submit">Send Message</button>
+                </form>
+            </div>
         </section>
     </main>
 </body>
