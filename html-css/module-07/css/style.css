@@ -40,8 +40,7 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    padding-top: 44px;
-    margin-bottom: 120px;
+    padding: 44px 0 120px;
 }
 
 .menu-list{
@@ -52,6 +51,7 @@
 }
 
 .menu-list-item-link{
+    display: block;
     text-decoration: none;
     font-size: 14px;
     color: rgb(34, 34, 34);
@@ -149,13 +149,14 @@
     font-family: "Montserrat";
 }
 
-.form{
+.form-block{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.form-data{
-    display: flex;
-    flex-direction: column;
+.form-left{
+    width: 485px;
 }
 
 .form input,
@@ -175,7 +176,7 @@
 .form-email,
 .form-subject{
     height: 50px;
-    margin: 0 30px 30px 0;
+    margin-bottom: 30px;
 }
 
 .form-message{
@@ -201,6 +202,4 @@
     text-transform: uppercase;
     font-family: "Montserrat";
     font-weight: 700;
-    margin: 0 0 115px 350px;
 }
-
