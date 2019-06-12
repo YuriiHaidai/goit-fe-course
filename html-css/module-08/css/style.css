@@ -21,7 +21,7 @@ a{
     text-decoration: none;
 }
 
-.holiday{
+.bg-img{
     background-color: rgb(26, 25, 21);
     background-image: url(../img/BGMob@1X.png);
     width: 320px;
@@ -74,7 +74,7 @@ h1 a{
     margin-bottom: 28px;
 }
 
-.holiday h2{
+.bg-img h2{
     font-family: "Montserrat";
     font-size: 30px;
     color: rgba(255, 255, 255, 255);
@@ -82,7 +82,7 @@ h1 a{
     margin: 0 auto 10px;
 }
 
-.holiday p{
+.bg-img p{
     font-family: "Roboto";
     font-size: 18px;
     color: rgba(255, 255, 255, 255);
@@ -91,7 +91,7 @@ h1 a{
     margin: 0 auto 12px;
 }
 
-.holiday button{
+.bg-img button{
     font-family: "Montserrat";
     height: 40px;
     width: 280px;
@@ -202,13 +202,13 @@ h1 a{
         width: 768px;
     }
     
-    .holiday{
+    .bg-img{
         background-image: url(../img/BGTab@1X.png);
         background-position: top;
         width: 768px;
     }
 
-    .header{
+    .menu{
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -224,19 +224,19 @@ h1 a{
         margin: 0;
     }
 
-    .holiday h2{
+    .bg-img h2{
         width: 532px;
         font-size: 52px;
         margin: 0 auto 26px;
     }
 
-    .holiday p{
+    .bg-img p{
         width: auto;
         font-size: 24px;
         margin: 0 auto 32px;
     }
 
-    .holiday button{
+    .bg-img button{
         width: 226px;
         margin-bottom: 234px;
     }
@@ -260,16 +260,18 @@ h1 a{
     }
 }
 
-@media (min-width: 1440px){
-    .holiday{
-        width: 1440px;
+@media (min-width: 960px){
+    .bg-img{
+        width: auto;
+        background-position: center;
+        background-size: cover;
     }
     
     .container{
         width: 942px;
     }
 
-    .header{
+    .menu{
         padding: 46px 0 130px 0;
     }
 }
