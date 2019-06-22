@@ -195,7 +195,7 @@ nav{
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        padding: 46px;
+        padding: 46px 0 130px;
     }
 
     nav{
