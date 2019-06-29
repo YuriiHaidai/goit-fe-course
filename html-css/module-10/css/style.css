@@ -232,14 +232,14 @@ font-family: 'Roboto', sans-serif; */
     position: relative;
 }
 
-.services-blok__item h3{
+.services-blok__title{
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.services-blok__item p{
+.services-blok__text{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin-bottom: 15px;
@@ -380,7 +380,7 @@ font-family: 'Roboto', sans-serif; */
     transition: linear 0.3s;
 }
 
-.team-list__item p{
+.team-list__name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -388,7 +388,7 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom: 10px;
 }
 
-.team-list__item h4{
+.team-list__ocupation{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -438,10 +438,6 @@ font-family: 'Roboto', sans-serif; */
             justify-content: space-between;
 }
 
-.team-list__icons-blok button{
-    cursor: pointer;
-}
-
 .team-list__icon{
     width: 57px;
     height: 57px;
@@ -461,7 +457,7 @@ font-family: 'Roboto', sans-serif; */
     padding-top: 12px;
 }
 
-.team-list__icon:hover  .team-list__svg--hover{
+.team-list__icon:hover .team-list__svg--hover{
     fill: #fff;
 }
 
@@ -488,10 +484,10 @@ font-family: 'Roboto', sans-serif; */
     background-color: #E5E5E5;
 }
 
-.footer p{
+.footer__text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-style: 14px;
+    font-size: 14px;
     color: rgba(51, 51, 51, 255);
 }
 
@@ -502,7 +498,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
 }
 
-.footer span{
+.footer__dev-name{
     color: #f6a6a6;
 }
 
